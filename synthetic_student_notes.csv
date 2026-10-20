@@ -1,0 +1,73 @@
+note_id,note_text,tags,tags_string
+N001,"A variable stores a value in memory. Python uses assignment with the equals sign, and variable names should be meaningful.",['Programming'],Programming
+N002,A for loop repeats a block of code for each item in a sequence. Indentation defines the loop body in Python.,['Programming'],Programming
+N003,Functions group reusable instructions. Parameters receive input values and return sends a result to the caller.,['Programming'],Programming
+N004,An algorithm is a finite sequence of steps used to solve a problem. Pseudocode describes logic before implementation.,"['Programming', 'Algorithms']",Programming;Algorithms
+N005,Binary search finds a target in a sorted array by repeatedly checking the middle element and halving the search range.,"['Algorithms', 'Data Structures']",Algorithms;Data Structures
+N006,A stack follows last-in first-out order. Push adds an item and pop removes the most recent item.,['Data Structures'],Data Structures
+N007,A queue follows first-in first-out order. Enqueue inserts at the rear and dequeue removes from the front.,['Data Structures'],Data Structures
+N008,A linked list stores nodes connected by references. Each node contains data and a pointer to the next node.,['Data Structures'],Data Structures
+N009,Big O notation describes how an algorithm's time or space requirement grows with input size.,['Algorithms'],Algorithms
+N010,"Merge sort divides an array, sorts each half recursively, and merges the sorted halves in O(n log n) time.","['Algorithms', 'Programming']",Algorithms;Programming
+N011,A database table contains rows and columns. A primary key uniquely identifies each record.,['Databases'],Databases
+N012,"SQL SELECT retrieves columns from a table, while WHERE filters rows that meet a condition.",['Databases'],Databases
+N013,A database JOIN combines related rows from two tables using a matching column.,['Databases'],Databases
+N014,Normalization reduces redundant data by organizing attributes into related tables and applying normal forms.,['Databases'],Databases
+N015,"An index can speed up database queries, but it requires storage and can slow down writes.",['Databases'],Databases
+N016,Machine learning uses data to learn patterns. Supervised learning trains on examples with known labels.,['Machine Learning'],Machine Learning
+N017,A training set fits a model and a test set estimates performance on unseen examples.,['Machine Learning'],Machine Learning
+N018,Overfitting occurs when a model memorizes training details and performs poorly on new data.,['Machine Learning'],Machine Learning
+N019,Precision is the fraction of predicted positives that are correct; recall is the fraction of actual positives found.,"['Machine Learning', 'Statistics']",Machine Learning;Statistics
+N020,A confusion matrix compares predicted labels with true labels and helps inspect classification errors.,"['Machine Learning', 'Statistics']",Machine Learning;Statistics
+N021,Mean is the arithmetic average. Median is the middle value after observations are ordered.,['Statistics'],Statistics
+N022,Standard deviation measures spread around the mean and is expressed in the same units as the data.,['Statistics'],Statistics
+N023,Probability ranges from zero to one and quantifies how likely an event is.,['Statistics'],Statistics
+N024,"A normal distribution is symmetric and bell-shaped, with mean, median, and mode at its center.",['Statistics'],Statistics
+N025,"An API defines how software components communicate through requests, responses, and agreed data formats.",['Web Development'],Web Development
+N026,"HTML structures a web page, CSS controls presentation, and JavaScript adds interactive behavior.",['Web Development'],Web Development
+N027,HTTP status code 404 indicates that a requested resource was not found.,['Web Development'],Web Development
+N028,Responsive design adapts layouts to screen sizes using flexible grids and media queries.,['Web Development'],Web Development
+N029,A Git commit records a snapshot of project changes. Branches let developers work on features separately.,['Software Engineering'],Software Engineering
+N030,"Unit tests check small components in isolation, while integration tests examine how components work together.",['Software Engineering'],Software Engineering
+N031,"Code review helps detect defects, improve readability, and share knowledge before changes are merged.",['Software Engineering'],Software Engineering
+N032,A software requirement states a user need or system behavior and should be testable and unambiguous.,['Software Engineering'],Software Engineering
+N033,Encryption transforms readable data into ciphertext using an algorithm and key.,['Cybersecurity'],Cybersecurity
+N034,Phishing messages impersonate trusted sources to trick people into revealing credentials or opening harmful links.,['Cybersecurity'],Cybersecurity
+N035,Multi-factor authentication combines independent evidence such as a password and a one-time code.,['Cybersecurity'],Cybersecurity
+N036,Least privilege gives each user or process only the permissions needed for its task.,['Cybersecurity'],Cybersecurity
+N037,A neural network uses connected layers of units to learn patterns by adjusting weights during training.,"['Artificial Intelligence', 'Machine Learning']",Artificial Intelligence;Machine Learning
+N038,Natural language processing studies methods for analyzing and generating human language.,['Artificial Intelligence'],Artificial Intelligence
+N039,"Generative AI can produce text or code, but outputs may contain unsupported claims and require verification.","['Artificial Intelligence', 'Cybersecurity']",Artificial Intelligence;Cybersecurity
+N040,A search engine indexes documents and ranks results based on relevance signals and query terms.,"['Information Retrieval', 'Web Development']",Information Retrieval;Web Development
+N041,TF-IDF gives higher weight to terms frequent in one document but uncommon across the collection.,"['Information Retrieval', 'Machine Learning']",Information Retrieval;Machine Learning
+N042,Cosine similarity compares vector directions and is often used to rank text documents by similarity.,"['Information Retrieval', 'Statistics']",Information Retrieval;Statistics
+N043,A CSV file stores tabular data as comma-separated values and can be read using pandas.,"['Data Analysis', 'Programming']",Data Analysis;Programming
+N044,A dataframe organizes data into labeled rows and columns. Filtering and grouping help summarize observations.,['Data Analysis'],Data Analysis
+N045,"Missing values should be inspected before choosing whether to remove, impute, or flag them.","['Data Analysis', 'Statistics']",Data Analysis;Statistics
+N046,"A bar chart compares categories, while a line chart is useful for showing change over time.","['Data Analysis', 'Statistics']",Data Analysis;Statistics
+N047,"A function can be tested with normal inputs, edge cases, and invalid values to expose defects.","['Software Engineering', 'Programming']",Software Engineering;Programming
+N048,A hash table maps keys to values and typically supports average constant-time lookup.,"['Data Structures', 'Algorithms']",Data Structures;Algorithms
+N049,A foreign key links a record to a key in another table and helps maintain referential integrity.,['Databases'],Databases
+N050,Cross-validation repeats training and validation across folds to estimate how a model generalizes.,"['Machine Learning', 'Statistics']",Machine Learning;Statistics
+N051,A short note: recursion calls the same function again until a base case stops it.,"['Programming', 'Algorithms']",Programming;Algorithms
+N052,Example code: for i in range(5): print(i). The loop prints values from zero through four.,['Programming'],Programming
+N053,"In SQL, SELECT name FROM Students WHERE mark >= 80; retrieves names meeting a score condition.",['Databases'],Databases
+N054,CSS media query: @media (max-width: 600px) changes styles for smaller screens.,['Web Development'],Web Development
+N055,"The model achieved high precision but low recall, so many relevant positive examples were missed.","['Machine Learning', 'Statistics']",Machine Learning;Statistics
+N056,A password manager stores unique credentials; phishing-resistant authentication can reduce account compromise.,['Cybersecurity'],Cybersecurity
+N057,A dashboard uses charts and summary metrics to communicate patterns in a dataset.,['Data Analysis'],Data Analysis
+N058,"A REST endpoint commonly represents a resource and uses HTTP methods such as GET, POST, PUT, and DELETE.",['Web Development'],Web Development
+N059,A compiler translates source code into another representation and reports syntax or type errors.,"['Programming', 'Software Engineering']",Programming;Software Engineering
+N060,A training dataset should represent expected use cases; biased or unbalanced examples can harm performance.,"['Machine Learning', 'Responsible AI']",Machine Learning;Responsible AI
+N061,"Collect only data needed for the task, restrict access, and remove personal identifiers where possible.","['Responsible AI', 'Cybersecurity']",Responsible AI;Cybersecurity
+N062,A topic tag is a suggestion rather than a fact; students should be able to correct or remove it.,"['Responsible AI', 'Information Retrieval']",Responsible AI;Information Retrieval
+N063,"A model card documents intended use, limitations, evaluation, and known risks of a machine-learning system.","['Responsible AI', 'Machine Learning']",Responsible AI;Machine Learning
+N064,Copyright and licence terms determine whether educational text can be reused or redistributed.,['Responsible AI'],Responsible AI
+N065,A vector representation encodes text numerically so a classifier or similarity system can compare notes.,"['Machine Learning', 'Information Retrieval']",Machine Learning;Information Retrieval
+N066,A dictionary in Python maps unique keys to values and supports lookup by key.,"['Programming', 'Data Structures']",Programming;Data Structures
+N067,"A database transaction groups operations and should preserve atomicity, consistency, isolation, and durability.",['Databases'],Databases
+N068,"The median is robust to extreme outliers, while the mean can be pulled toward very large or small values.","['Statistics', 'Data Analysis']",Statistics;Data Analysis
+N069,"A unit test for binary search should cover an empty list, a missing target, and a target at either boundary.","['Algorithms', 'Software Engineering']",Algorithms;Software Engineering
+N070,Use HTTPS to protect data in transit; validate inputs and avoid logging secrets or passwords.,"['Cybersecurity', 'Web Development']",Cybersecurity;Web Development
+N071,"A student note mentions Python lists, SQL tables, and a small chart; tags may cover several subjects.","['Programming', 'Databases', 'Data Analysis']",Programming;Databases;Data Analysis
+N072,"A machine-learning pipeline can clean text, convert it to TF-IDF features, and train a one-vs-rest classifier.","['Machine Learning', 'Information Retrieval']",Machine Learning;Information Retrieval

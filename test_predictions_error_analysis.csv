@@ -1,0 +1,19 @@
+note_text,true_tags,baseline_tags,model_tags
+Binary search finds a target in a sorted array by repeatedly checking the middle element and halving the search range.,"Algorithms, Data Structures","Algorithms, Data Structures",
+"A model card documents intended use, limitations, evaluation, and known risks of a machine-learning system.","Machine Learning, Responsible AI","Machine Learning, Responsible AI",Machine Learning
+Precision is the fraction of predicted positives that are correct; recall is the fraction of actual positives found.,"Machine Learning, Statistics",Statistics,Statistics
+"A variable stores a value in memory. Python uses assignment with the equals sign, and variable names should be meaningful.",Programming,"Programming, Statistics",
+A Git commit records a snapshot of project changes. Branches let developers work on features separately.,Software Engineering,Software Engineering,
+A short note: recursion calls the same function again until a base case stops it.,"Programming, Algorithms","Programming, Algorithms",
+A database table contains rows and columns. A primary key uniquely identifies each record.,Databases,Databases,Databases
+Multi-factor authentication combines independent evidence such as a password and a one-time code.,Cybersecurity,"Programming, Cybersecurity",
+A database JOIN combines related rows from two tables using a matching column.,Databases,Databases,Databases
+"The model achieved high precision but low recall, so many relevant positive examples were missed.","Machine Learning, Statistics","Machine Learning, Statistics",Machine Learning
+A hash table maps keys to values and typically supports average constant-time lookup.,"Algorithms, Data Structures","Data Structures, Databases","Programming, Data Structures"
+A software requirement states a user need or system behavior and should be testable and unambiguous.,Software Engineering,"Databases, Software Engineering",
+"Merge sort divides an array, sorts each half recursively, and merges the sorted halves in O(n log n) time.","Programming, Algorithms","Algorithms, Data Structures",
+"A bar chart compares categories, while a line chart is useful for showing change over time.","Statistics, Data Analysis",Data Analysis,
+A stack follows last-in first-out order. Push adds an item and pop removes the most recent item.,Data Structures,Data Structures,
+Probability ranges from zero to one and quantifies how likely an event is.,Statistics,Statistics,
+A dashboard uses charts and summary metrics to communicate patterns in a dataset.,Data Analysis,Data Analysis,
+Cross-validation repeats training and validation across folds to estimate how a model generalizes.,"Machine Learning, Statistics",Machine Learning,Machine Learning
